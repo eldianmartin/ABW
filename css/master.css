@@ -12,6 +12,7 @@
     -webkit-box-shadow: inset 0 -12px 5px -10px #e7e7e7;
     box-shadow: inset 0 -12px 5px -10px #e7e7e7;
     min-height: 75px;
+    margin-bottom: 0px;
 }
 
     .navbar-default .navbar-collapse {
@@ -37,19 +38,21 @@
 
 .navbar-form {
     margin: 10px 0px;
-    padding:0px;
+    padding: 0px;
     position: relative;
-	margin-right:15px;
+    margin-right: 15px;
 }
-.navbar-nav{
-     margin: 10px 0px;
+
+.navbar-nav {
+    margin: 10px 0px;
 }
-    .navbar-form button {
-        position: absolute;
-        right:0px;
-        top:0px;
-		padding:9px;
-    }
+
+.navbar-form button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 9px;
+}
 
 .navbar-nav > li > a {
     padding: 10px;
@@ -60,6 +63,37 @@
     background: transparent;
 }
 
+
+.carousel-indicators li {
+    border-color: #9A1E20;
+}
+
+.carousel-indicators .active {
+    background-color: #9A1E20;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+.lh-20 {
+        line-height: 20px!important;
+}
+.cl-red {
+    color:#9A1E20;
+}
+p {
+    font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
 
 @media (min-width: 768px) {
     .navbar-form .form-control {

@@ -1,9 +1,16 @@
- <uib-carousel>
-            <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" no-transition="true">
-                <img ng-src="{{slide.image}}" style="margin:auto;">
-                <div class="carousel-caption">
-                    <h4>{{slide.title}} </h4>
-                    <p>{{slide.description}}</p>
-                </div>
-            </uib-slide>
-        </uib-carousel>
+<uib-carousel>
+    <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" no-transition="true">
+        <a ng-href="{{slide.url}}">
+            <img ng-src="{{slide.image}}" style="margin:auto;">
+        </a>
+    </uib-slide>
+</uib-carousel>
+
+<!-- New Arrival -->
+<!-- Discount -->
+<h1 class="fs-15 lh-20 cl-red">
+    OneMarkets / OneMarketIndo - Menjual Lukisan Diamond Painting, Bunga DIY Wisuda / Valentine
+</h1>
+<p class="lh-20 ">
+    OneMarkets / OneMarketIndo adalah toko online terpercaya di Indonesia yang menjual barang unik seperti Diamond Painting, Bunga DIY untuk Bunga Valentine, Bunga Wisuda. Selain itu OneMarkets / OneMarketIndo juga menjadi reseller bagi supplier yang berminat untuk memasarkan barangnya secara online.
+</p>
