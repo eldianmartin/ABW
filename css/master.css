@@ -1,6 +1,6 @@
 ﻿body {
     padding-top: 80px;
-    background:#fafafa;
+    background: #fafafa;
 }
 
 p {
@@ -18,29 +18,53 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: -5px;
 }
 
-footer {
-    padding: 20px 0px 10px 0px;
-    height: auto;
-    width: 100%;
-    background-color: #282828;
-    color: #999;
+a {
+    color: #909090;
 }
 
+    a:hover {
+        color: #9A1E20;
+        text-decoration: none;
+    }
+
+footer {
+    padding: 45px 0px 35px 0px;
+    height: auto;
+    width: 100%;
+      border-top: 3px solid #9A1E20;
+}
+
+    footer h6 {
+        font-size: 14px;
+        color: #9A1E20;
+    }
+
     footer table th {
-        font-size: 12px;
-        color: #999;
+        font-size: 14px;
+        color: #909090;
     }
 
     footer table td {
         font-size: 12px;
-        color: #ddd;
-        padding:3px;
+        color: #909090;
+        padding: 3px;
     }
-    
-    footer table td a{
+
+    footer a {
         font-size: 12px;
-        color: Highlight;
+        color: #909090;
     }
+
+        footer a:hover {
+            font-size: 12px;
+            color: #909090;
+        }
+
+    footer ul.sitemap {
+        list-style: none;
+        padding: 0;
+    }
+
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     padding-left: 5px;
     padding-right: 5px;
@@ -136,6 +160,14 @@ footer {
     margin-bottom: 10px !important;
 }
 
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.mb-25 {
+    margin-bottom: 25px !important;
+}
+
 .mt-10 {
     margin-top: 10px;
 }
@@ -209,6 +241,7 @@ footer {
     display: inline-block;
     float: left;
     min-height: 80px;
+    padding: 0px 5px;
 }
 
     .product-card .product-card-info strong, .product-card .product-card-info span {
@@ -224,6 +257,7 @@ footer {
 .product-card-tag {
     height: 20px;
     overflow: hidden;
+    padding: 0px 5px;
 }
 
 
